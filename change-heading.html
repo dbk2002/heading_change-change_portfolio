@@ -1,0 +1,24 @@
+<!DOCTYPE html> 
+<html lang="en"> 
+<head> 
+ <meta charset="UTF-8"> 
+ <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+ <title>Change Heading</title> 
+ <style> 
+ body { 
+ font-family: Arial, sans-serif; 
+ margin: 20px; 
+ } 
+ </style> 
+</head> 
+<body> 
+ <h2 id="heading">Original Heading</h2> 
+ 
+ <button onclick="changeHeading()">Click Me to Change Heading</button> 
+ <script> 
+ function changeHeading() { 
+ document.getElementById("heading").textContent = "Heading Changed!"; 
+ } 
+ </script> 
+</body> 
+</html> 
